@@ -1,6 +1,6 @@
 # 🧩 Complete Spring Boot Learning Repository
 
-Welcome to the **Complete Spring Boot Learning Repository**, a structured and practical resource for mastering the **Spring ecosystem** from the ground up. This repository is based on the high-quality content provided by [Dilip Singh — IT Academy](https://www.youtube.com/@DilipSundarraj), a popular YouTube instructor.
+Welcome to the **Complete Spring Boot Learning Repository**, a structured and practical resource for mastering the **Spring ecosystem** from the ground up. This repository is based on the high-quality content provided by [Dilip S B — IT Academy](https://www.youtube.com/@DilipSundarraj), a popular YouTube instructor known for his clear and in-depth Spring Boot tutorials.
 
 ---
 
@@ -62,7 +62,7 @@ Each folder in this repository is dedicated to a specific module or topic, and i
 
 ## 📚 Learning Source
 
-All modules and implementations are directly inspired and built by following the **Spring Boot tutorial series by [Dilip S B (IT Academy)](https://www.youtube.com/@DilipSundarraj)** on YouTube. His step-by-step approach ensures clear understanding and practical experience.
+All modules and implementations are directly inspired and built by following the **Spring Boot tutorial series by [Dilip S B — IT Academy](https://www.youtube.com/@DilipSundarraj)** on YouTube. His step-by-step teaching ensures clarity, hands-on practice, and real-world knowledge.
 
 ---
 
@@ -70,4 +70,14 @@ All modules and implementations are directly inspired and built by following the
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-spring-boot-repo.git
+   git clone https://github.com/your-username/spring-boot-complete-learning.git
+2. Navigate into the desired module folder:
+   ```bash
+cd spring-boot-complete-learning/spring-data-jpa-example
+Open in your preferred IDE (IntelliJ, STS, or Eclipse).
+
+3. Build and run using Maven:
+
+bash
+mvn clean install
+mvn spring-boot:run
