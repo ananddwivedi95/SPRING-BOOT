@@ -63,24 +63,3 @@ Each folder in this repository is dedicated to a specific module or topic, and i
 ## 📚 Learning Source
 
 All modules and implementations are directly inspired and built by following the **Spring Boot tutorial series by [Dilip — IT Academy](https://www.youtube.com/@DilipSundarraj)** on YouTube. His step-by-step teaching ensures clarity, hands-on practice, and real-world knowledge.
-
----
-
-## 🧑‍💻 How to Use
-
-1. Clone the repository:
-   
-   ```bash
-   git clone https://github.com/your-username/spring-boot-complete-learning.git
-
-3. Navigate into the desired module folder:
-   
-   ```bash
-cd spring-boot-complete-learning/spring-data-jpa-example
-3. Open in your preferred IDE (IntelliJ, STS, or Eclipse).
-
-4. Build and run using Maven:
-   
-bash
-mvn clean install
-mvn spring-boot:run
