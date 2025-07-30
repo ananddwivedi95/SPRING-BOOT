@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+    <!--injecting the bean through the constructor-->
+  <bean id="patient" class ="com.anand.hospital.Patient">
+
+      <constructor-arg index="0" value="anand"/>
+      <constructor-arg index="1" value="48547548"/>
+
+
+      <!--through the constructor injecting list -->
+      <constructor-arg>
+          <list>
+          <value>shipla</value>
+           <value>dolo</value>
+          </list>
+      </constructor-arg>
+  </bean>
+
+    <!--<bean id="patient1" class ="com.anand.hospital.Patient">
+
+        <constructor-arg index="0" value="anand"/>
+        <constructor-arg index="1" value="4"/>
+
+
+        &lt;!&ndash;through the constructor injecting list &ndash;&gt;
+        <constructor-arg>
+            <list>
+                <value>shipla</value>
+                <value>dolo</value>
+            </list>
+        </constructor-arg>
+    </bean>
+-->
+    <bean id="hospital" class="com.anand.hospital.Hospital" autowire="constructor">
+    <property name="name" value="Pt Daya Sankar Hospital"/>
+
+    </bean>
+</beans>
