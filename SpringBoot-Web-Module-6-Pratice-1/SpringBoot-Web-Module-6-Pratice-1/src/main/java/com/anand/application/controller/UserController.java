@@ -56,10 +56,4 @@ public class UserController {
     {
         return "Spring Boot Project working ";
     }
-    @GetMapping("/check")
-    public String checkSpringBoot()
-    {
-        return "Spring Boot Project working ";
-    }
-
 }
