@@ -16,7 +16,7 @@ public class UserController {
     @Autowired
     UserService service;
 
-
+     // springboot project
     // registration page
     @GetMapping("/registration")
     public String registration()
@@ -49,5 +49,11 @@ public class UserController {
     public String dashBoard()
     {
         return "dashboard";
+    }
+
+    @GetMapping("/check")
+    public String checkUser()
+    {
+        return "Spring Boot Project working ";
     }
 }
